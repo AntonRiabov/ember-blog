@@ -4,7 +4,7 @@
     <ul class="list-unstyled">
       {{#each model as |post|}}
           <li>
-            {{#link-to 'post' post}}
+            {{#link-to 'posts.post' post}}
               {{post.title}}
                 <span class="muted">
               by {{post.author.name}}
